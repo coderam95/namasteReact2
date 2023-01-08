@@ -1,0 +1,57 @@
+Namaste React
+Assignment 1
+
+Theory
+
+1. What is Emmet ? 
+
+Emmet is a plugin for many popular text editors which greatly improves HTML & CSS workflow //definition from official website
+Emmet can be used as a powerful tool with which we can quickly develop the essential boilerplate code on single key press.
+
+2. Difference between library and framework ?
+
+The framework provides the whole structure of the application and lot of packages with itself. 
+Whereas a library is just a enhanced version of the core with which the user can build
+application and form our own structure of code.
+ 
+3. What is CDN? Why do we use it ?
+CDN is content delivery network. Distributed group of servers which 
+work together to provide fast delivery of the internet content.
+
+4. Why React is called React ?
+
+React is called React because it was designed to be a declarative, 
+efficient, and flexible JavaScript library for building user interfaces.
+
+5. What is cross-origin in script tags ?
+
+The crossorigin attribute is a CORS settings attribute. 
+It controls, for scripts that are obtained from other origins, 
+whether error information will be exposed.
+
+6. Difference between React and ReactDOM ?
+
+On perspective of two script tags being included from React CDN,
+
+React is the library being imported and used for building user interfaces.
+
+ReactDOM is used for manipulating and doing changes in the Document Object Model (DOM).
+
+7. What is difference between react.development.js and react.production.js files via CDN?
+
+Basically, development.js file can be used for development purposes and 
+production.js file contains a minified, optimised code for using in production.
+
+Other than this, all operations can be performed using both files.
+
+8. Async vs defer in script tags ?
+
+In async, the script fetching is done parellel with HTML parsing. 
+Once the script is fetched, HTML parsing is stopped and the script execution starts.
+HTML parsing is continued only after the completion of the script execution.
+
+In defer, The HTML parsing continues and in parellel, the script fetching happens.
+HTML parsing continues even after the script is fetched and script only executes only after HTML parsing is done
+
+
+
